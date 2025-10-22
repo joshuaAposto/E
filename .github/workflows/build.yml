@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ main, develop ]
 
+permissions:
+  contents: read
+  security-events: write
+
 jobs:
   # Node.js Backend Build and Test
   backend-build:
@@ -119,6 +123,10 @@ jobs:
   # Security and Quality Checks
   security-check:
     runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
     
     steps:
     - name: Checkout code
@@ -132,11 +140,24 @@ jobs:
         format: 'sarif'
         output: 'trivy-results.sarif'
         
+    - name: Verify SARIF file was created
+      run: |
+        if [ -f "trivy-results.sarif" ]; then
+          echo "SARIF file created successfully"
+          echo "File size: $(wc -c < trivy-results.sarif) bytes"
+          echo "First few lines:"
+          head -10 trivy-results.sarif
+        else
+          echo "SARIF file was not created"
+          exit 1
+        fi
+        
     - name: Upload Trivy scan results to GitHub Security tab
       uses: github/codeql-action/upload-sarif@v3
-      if: always()
+      if: always() && hashFiles('trivy-results.sarif') != ''
       with:
         sarif_file: 'trivy-results.sarif'
+        category: 'trivy-security-scan'
 
   # Build Summary
   build-summary:
