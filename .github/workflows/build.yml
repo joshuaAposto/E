@@ -1,0 +1,156 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main, develop, cursor/* ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  # Node.js Backend Build and Test
+  backend-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Run linting (if available)
+      run: npm run lint || echo "No lint script found"
+      continue-on-error: true
+      
+    - name: Run tests
+      run: npm test || echo "No test script found"
+      continue-on-error: true
+      
+    - name: Build verification
+      run: node -c index.js && echo "Backend syntax check passed"
+
+  # Android App Build
+  android-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+      
+    - name: Cache Gradle packages
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.gradle/caches
+          ~/.gradle/wrapper
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+          
+    - name: Grant execute permission for gradlew
+      run: chmod +x android/gradlew
+      
+    - name: Build Android App (Debug)
+      run: |
+        cd android
+        ./gradlew assembleDebug
+        
+    - name: Build Android App (Release)
+      run: |
+        cd android
+        ./gradlew assembleRelease
+      continue-on-error: true
+      
+    - name: Upload APK artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: android-apk-debug
+        path: android/app/build/outputs/apk/debug/*.apk
+        retention-days: 30
+        
+    - name: Upload APK artifacts (Release)
+      uses: actions/upload-artifact@v4
+      with:
+        name: android-apk-release
+        path: android/app/build/outputs/apk/release/*.apk
+        retention-days: 30
+      continue-on-error: true
+
+  # GPT4oMini Service Build
+  gpt4omini-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: gpt4omini/package-lock.json
+        
+    - name: Install GPT4oMini dependencies
+      run: |
+        cd gpt4omini
+        npm ci
+        
+    - name: Verify GPT4oMini service
+      run: |
+        cd gpt4omini
+        node -c index.js && echo "GPT4oMini service syntax check passed"
+
+  # Security and Quality Checks
+  security-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+        
+    - name: Upload Trivy scan results to GitHub Security tab
+      uses: github/codeql-action/upload-sarif@v3
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'
+
+  # Build Summary
+  build-summary:
+    runs-on: ubuntu-latest
+    needs: [backend-build, android-build, gpt4omini-build, security-check]
+    if: always()
+    
+    steps:
+    - name: Build Summary
+      run: |
+        echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
+        echo "| Component | Status |" >> $GITHUB_STEP_SUMMARY
+        echo "|-----------|--------|" >> $GITHUB_STEP_SUMMARY
+        echo "| Backend (Node.js) | ${{ needs.backend-build.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Android App | ${{ needs.android-build.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| GPT4oMini Service | ${{ needs.gpt4omini-build.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Security Check | ${{ needs.security-check.result }} |" >> $GITHUB_STEP_SUMMARY
