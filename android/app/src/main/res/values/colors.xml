@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#6366F1</color>
+    <color name="primary_light">#818CF8</color>
+    <color name="primary_dark">#4F46E5</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#06B6D4</color>
+    <color name="secondary_light">#22D3EE</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#F59E0B</color>
+    <color name="accent_light">#FCD34D</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#0F0F23</color>
+    <color name="background_secondary">#1A1A2E</color>
+    <color name="card_background">#16213E</color>
+    <color name="card_background_hover">#1E2749</color>
+    <color name="input_background">#0E1428</color>
+    
+    <!-- Text Colors -->
+    <color name="text_main">#F1F5F9</color>
+    <color name="text_secondary">#CBD5E1</color>
+    <color name="text_muted">#94A3B8</color>
+    
+    <!-- Border Colors -->
+    <color name="border_light">#334155</color>
+    <color name="border_accent">#475569</color>
+    
+    <!-- Status Colors -->
+    <color name="error">#EF4444</color>
+    <color name="error_light">#F87171</color>
+    <color name="success">#10B981</color>
+    <color name="success_light">#34D399</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_light">#FCD34D</color>
+    
+    <!-- Premium Colors -->
+    <color name="premium_gold">#FFD700</color>
+    <color name="premium_gradient_start">#6366F1</color>
+    <color name="premium_gradient_end">#06B6D4</color>
+    
+    <!-- System Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Overlay Colors -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#80FFFFFF</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#6366F1</color>
+    <color name="gradient_end">#06B6D4</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#6366F1</color>
+    <color name="button_secondary">#06B6D4</color>
+    <color name="button_success">#10B981</color>
+    <color name="button_warning">#F59E0B</color>
+    <color name="button_error">#EF4444</color>
+    
+    <!-- Status Badge Colors -->
+    <color name="badge_premium">#6366F1</color>
+    <color name="badge_free">#6B7280</color>
+    <color name="badge_active">#10B981</color>
+    <color name="badge_suspended">#F59E0B</color>
+    
+</resources>

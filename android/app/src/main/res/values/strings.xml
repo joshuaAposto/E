@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShareBooster</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="fullname">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="google_sign_in">Sign in with Google</string>
+    <string name="or">OR</string>
+    
+    <!-- Main App -->
+    <string name="dashboard">Dashboard</string>
+    <string name="share_boost">Share Boost</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="premium">Premium</string>
+    <string name="free">Free</string>
+    
+    <!-- Share Boost -->
+    <string name="facebook_url">Facebook Post URL</string>
+    <string name="share_amount">Share Amount</string>
+    <string name="interval_seconds">Interval (seconds)</string>
+    <string name="start_boost">Start Boost</string>
+    <string name="stop_boost">Stop Boost</string>
+    <string name="boost_running">Boost Running</string>
+    <string name="boost_stopped">Boost Stopped</string>
+    <string name="shares_completed">Shares Completed</string>
+    <string name="target_shares">Target Shares</string>
+    
+    <!-- Premium -->
+    <string name="upgrade_premium">Upgrade to Premium</string>
+    <string name="premium_features">Premium Features</string>
+    <string name="unlimited_shares">Unlimited Shares</string>
+    <string name="priority_support">Priority Support</string>
+    <string name="advanced_analytics">Advanced Analytics</string>
+    <string name="request_premium">Request Premium</string>
+    
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="profile_picture">Profile Picture</string>
+    
+    <!-- Settings -->
+    <string name="notifications">Notifications</string>
+    <string name="privacy">Privacy</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="contact_support">Contact Support</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_invalid_credentials">Invalid email or password.</string>
+    <string name="error_email_exists">Email already exists.</string>
+    <string name="error_username_exists">Username already exists.</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_password_too_short">Password must be at least 6 characters.</string>
+    <string name="error_required_field">This field is required.</string>
+    <string name="error_invalid_url">Please enter a valid Facebook post URL.</string>
+    <string name="error_boost_limit">You have reached your share limit.</string>
+    
+    <!-- Success Messages -->
+    <string name="success_login">Login successful!</string>
+    <string name="success_register">Registration successful!</string>
+    <string name="success_profile_updated">Profile updated successfully!</string>
+    <string name="success_password_changed">Password changed successfully!</string>
+    <string name="success_boost_started">Share boost started!</string>
+    <string name="success_boost_stopped">Share boost stopped!</string>
+    
+    <!-- Notifications -->
+    <string name="notification_boost_running">Share boost is running</string>
+    <string name="notification_boost_completed">Share boost completed</string>
+    <string name="notification_boost_stopped">Share boost stopped</string>
+    
+    <!-- Premium Plans -->
+    <string name="plan_1_week">1 Week</string>
+    <string name="plan_2_weeks">2 Weeks</string>
+    <string name="plan_1_year">1 Year</string>
+    <string name="plan_permanent">Permanent</string>
+    
+    <!-- API Keys -->
+    <string name="api_key_generate">Generate API Key</string>
+    <string name="api_key_current">Current API Key</string>
+    <string name="api_key_revoke">Revoke API Key</string>
+    <string name="api_key_copied">API Key copied to clipboard</string>
+    
+    <!-- Admin -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="admin_users">Users</string>
+    <string name="admin_requests">Requests</string>
+    <string name="admin_announcements">Announcements</string>
+    
+</resources>
