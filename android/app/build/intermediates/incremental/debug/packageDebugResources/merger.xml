@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/workspace/android/app/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/workspace/android/app/src/main/res"><file name="ic_launcher" path="/workspace/android/app/src/main/res/mipmap-hdpi/ic_launcher.xml" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/workspace/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.xml" qualifiers="hdpi-v4" type="mipmap"/><file name="backup_rules" path="/workspace/android/app/src/main/res/xml/backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="/workspace/android/app/src/main/res/xml/data_extraction_rules.xml" qualifiers="" type="xml"/><file name="ic_launcher" path="/workspace/android/app/src/main/res/drawable/ic_launcher.xml" qualifiers="" type="drawable"/><file name="ic_profile" path="/workspace/android/app/src/main/res/drawable/ic_profile.xml" qualifiers="" type="drawable"/><file name="button_secondary_background" path="/workspace/android/app/src/main/res/drawable/button_secondary_background.xml" qualifiers="" type="drawable"/><file name="button_success_background" path="/workspace/android/app/src/main/res/drawable/button_success_background.xml" qualifiers="" type="drawable"/><file name="button_primary_background" path="/workspace/android/app/src/main/res/drawable/button_primary_background.xml" qualifiers="" type="drawable"/><file name="ic_settings" path="/workspace/android/app/src/main/res/drawable/ic_settings.xml" qualifiers="" type="drawable"/><file name="ic_share_boost" path="/workspace/android/app/src/main/res/drawable/ic_share_boost.xml" qualifiers="" type="drawable"/><file name="card_primary_background" path="/workspace/android/app/src/main/res/drawable/card_primary_background.xml" qualifiers="" type="drawable"/><file name="badge_suspended_background" path="/workspace/android/app/src/main/res/drawable/badge_suspended_background.xml" qualifiers="" type="drawable"/><file name="badge_active_background" path="/workspace/android/app/src/main/res/drawable/badge_active_background.xml" qualifiers="" type="drawable"/><file name="ic_google" path="/workspace/android/app/src/main/res/drawable/ic_google.xml" qualifiers="" type="drawable"/><file name="button_error_background" path="/workspace/android/app/src/main/res/drawable/button_error_background.xml" qualifiers="" type="drawable"/><file name="badge_free_background" path="/workspace/android/app/src/main/res/drawable/badge_free_background.xml" qualifiers="" type="drawable"/><file name="card_premium_background" path="/workspace/android/app/src/main/res/drawable/card_premium_background.xml" qualifiers="" type="drawable"/><file name="ic_facebook" path="/workspace/android/app/src/main/res/drawable/ic_facebook.xml" qualifiers="" type="drawable"/><file name="badge_premium_background" path="/workspace/android/app/src/main/res/drawable/badge_premium_background.xml" qualifiers="" type="drawable"/><file name="ic_premium" path="/workspace/android/app/src/main/res/drawable/ic_premium.xml" qualifiers="" type="drawable"/><file name="button_warning_background" path="/workspace/android/app/src/main/res/drawable/button_warning_background.xml" qualifiers="" type="drawable"/><file name="input_primary_background" path="/workspace/android/app/src/main/res/drawable/input_primary_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="/workspace/android/app/src/main/res/drawable/ic_launcher_foreground.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/workspace/android/app/src/main/res/mipmap-xhdpi/ic_launcher.xml" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/workspace/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.xml" qualifiers="xhdpi-v4" type="mipmap"/><file path="/workspace/android/app/src/main/res/values/colors.xml" qualifiers=""><color name="primary">#6366F1</color><color name="primary_light">#818CF8</color><color name="primary_dark">#4F46E5</color><color name="secondary">#06B6D4</color><color name="secondary_light">#22D3EE</color><color name="accent">#F59E0B</color><color name="accent_light">#FCD34D</color><color name="background">#0F0F23</color><color name="background_secondary">#1A1A2E</color><color name="card_background">#16213E</color><color name="card_background_hover">#1E2749</color><color name="input_background">#0E1428</color><color name="text_main">#F1F5F9</color><color name="text_secondary">#CBD5E1</color><color name="text_muted">#94A3B8</color><color name="border_light">#334155</color><color name="border_accent">#475569</color><color name="error">#EF4444</color><color name="error_light">#F87171</color><color name="success">#10B981</color><color name="success_light">#34D399</color><color name="warning">#F59E0B</color><color name="warning_light">#FCD34D</color><color name="premium_gold">#FFD700</color><color name="premium_gradient_start">#6366F1</color><color name="premium_gradient_end">#06B6D4</color><color name="white">#FFFFFF</color><color name="black">#000000</color><color name="transparent">#00000000</color><color name="overlay_dark">#80000000</color><color name="overlay_light">#80FFFFFF</color><color name="gradient_start">#6366F1</color><color name="gradient_end">#06B6D4</color><color name="button_primary">#6366F1</color><color name="button_secondary">#06B6D4</color><color name="button_success">#10B981</color><color name="button_warning">#F59E0B</color><color name="button_error">#EF4444</color><color name="badge_premium">#6366F1</color><color name="badge_free">#6B7280</color><color name="badge_active">#10B981</color><color name="badge_suspended">#F59E0B</color></file><file path="/workspace/android/app/src/main/res/values/themes.xml" qualifiers=""><style name="Theme.ShareBooster" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/text_main</item>
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_main</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style><style name="Theme.ShareBooster.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.ShareBooster</item>
+    </style><style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_primary_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style><style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@drawable/button_secondary_background</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style><style name="Button.Success" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_success_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style><style name="Button.Warning" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_warning_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style><style name="Button.Error" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_error_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style><style name="Card.Primary" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@drawable/card_primary_background</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+    </style><style name="Card.Premium" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@drawable/card_premium_background</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">8dp</item>
+    </style><style name="Text.Headline" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_main</item>
+    </style><style name="Text.Title" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_main</item>
+    </style><style name="Text.Subtitle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style><style name="Text.Body" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_main</item>
+    </style><style name="Text.Caption" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_muted</item>
+    </style><style name="Input.Primary" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:background">@drawable/input_primary_background</item>
+        <item name="android:textColorHint">@color/text_muted</item>
+        <item name="android:textColor">@color/text_main</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">16dp</item>
+    </style><style name="Badge.Premium" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@drawable/badge_premium_background</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="Badge.Free" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@drawable/badge_free_background</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="Badge.Active" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@drawable/badge_active_background</item>
+        <item name="android:textColor">@color/success</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="Badge.Suspended" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@drawable/badge_suspended_background</item>
+        <item name="android:textColor">@color/warning</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+    </style></file><file path="/workspace/android/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">ShareBooster</string><string name="login">Login</string><string name="register">Register</string><string name="logout">Logout</string><string name="email">Email</string><string name="password">Password</string><string name="username">Username</string><string name="fullname">Full Name</string><string name="confirm_password">Confirm Password</string><string name="forgot_password">Forgot Password?</string><string name="google_sign_in">Sign in with Google</string><string name="or">OR</string><string name="dashboard">Dashboard</string><string name="share_boost">Share Boost</string><string name="profile">Profile</string><string name="settings">Settings</string><string name="premium">Premium</string><string name="free">Free</string><string name="facebook_url">Facebook Post URL</string><string name="share_amount">Share Amount</string><string name="interval_seconds">Interval (seconds)</string><string name="start_boost">Start Boost</string><string name="stop_boost">Stop Boost</string><string name="boost_running">Boost Running</string><string name="boost_stopped">Boost Stopped</string><string name="shares_completed">Shares Completed</string><string name="target_shares">Target Shares</string><string name="upgrade_premium">Upgrade to Premium</string><string name="premium_features">Premium Features</string><string name="unlimited_shares">Unlimited Shares</string><string name="priority_support">Priority Support</string><string name="advanced_analytics">Advanced Analytics</string><string name="request_premium">Request Premium</string><string name="edit_profile">Edit Profile</string><string name="change_password">Change Password</string><string name="current_password">Current Password</string><string name="new_password">New Password</string><string name="confirm_new_password">Confirm New Password</string><string name="save_changes">Save Changes</string><string name="profile_picture">Profile Picture</string><string name="notifications">Notifications</string><string name="privacy">Privacy</string><string name="about">About</string><string name="version">Version</string><string name="contact_support">Contact Support</string><string name="loading">Loading...</string><string name="error">Error</string><string name="success">Success</string><string name="cancel">Cancel</string><string name="ok">OK</string><string name="retry">Retry</string><string name="save">Save</string><string name="delete">Delete</string><string name="edit">Edit</string><string name="close">Close</string><string name="back">Back</string><string name="next">Next</string><string name="previous">Previous</string><string name="error_network">Network error. Please check your connection.</string><string name="error_invalid_credentials">Invalid email or password.</string><string name="error_email_exists">Email already exists.</string><string name="error_username_exists">Username already exists.</string><string name="error_passwords_dont_match">Passwords don\'t match.</string><string name="error_invalid_email">Please enter a valid email address.</string><string name="error_password_too_short">Password must be at least 6 characters.</string><string name="error_required_field">This field is required.</string><string name="error_invalid_url">Please enter a valid Facebook post URL.</string><string name="error_boost_limit">You have reached your share limit.</string><string name="success_login">Login successful!</string><string name="success_register">Registration successful!</string><string name="success_profile_updated">Profile updated successfully!</string><string name="success_password_changed">Password changed successfully!</string><string name="success_boost_started">Share boost started!</string><string name="success_boost_stopped">Share boost stopped!</string><string name="notification_boost_running">Share boost is running</string><string name="notification_boost_completed">Share boost completed</string><string name="notification_boost_stopped">Share boost stopped</string><string name="plan_1_week">1 Week</string><string name="plan_2_weeks">2 Weeks</string><string name="plan_1_year">1 Year</string><string name="plan_permanent">Permanent</string><string name="api_key_generate">Generate API Key</string><string name="api_key_current">Current API Key</string><string name="api_key_revoke">Revoke API Key</string><string name="api_key_copied">API Key copied to clipboard</string><string name="admin_dashboard">Admin Dashboard</string><string name="admin_users">Users</string><string name="admin_requests">Requests</string><string name="admin_announcements">Announcements</string></file><file name="ic_launcher" path="/workspace/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.xml" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/workspace/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.xml" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/workspace/android/app/src/main/res/mipmap-mdpi/ic_launcher.xml" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/workspace/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.xml" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/workspace/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/workspace/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.xml" qualifiers="xxxhdpi-v4" type="mipmap"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/workspace/android/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/workspace/android/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/workspace/android/app/build/generated/res/resValues/debug"/><source path="/workspace/android/app/build/generated/res/processDebugGoogleServices"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/workspace/android/app/build/generated/res/resValues/debug"/><source path="/workspace/android/app/build/generated/res/processDebugGoogleServices"><file path="/workspace/android/app/build/generated/res/processDebugGoogleServices/values/values.xml" qualifiers=""><string name="default_web_client_id" translatable="false">269620795252-otbo71hcr977ch2flulk728mr1rk3gif.apps.googleusercontent.com</string><string name="gcm_defaultSenderId" translatable="false">269620795252</string><string name="google_api_key" translatable="false">AIzaSyDummyKeyForDevelopment</string><string name="google_app_id" translatable="false">1:269620795252:android:1234567890abcdef</string><string name="google_crash_reporting_api_key" translatable="false">AIzaSyDummyKeyForDevelopment</string><string name="google_storage_bucket" translatable="false">sharebooster-app.appspot.com</string><string name="project_id" translatable="false">sharebooster-app</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="res-processDebugGoogleServices" generated-set="res-processDebugGoogleServices$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems/></merger>
