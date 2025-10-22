@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ShareBooster" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.ShareBooster" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
@@ -38,7 +38,7 @@
     </style>
 
     <!-- Custom Button Styles -->
-    <style name="Button.Primary" parent="Widget.Material3.Button">
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/button_primary_background</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">16sp</item>
@@ -47,7 +47,7 @@
         <item name="android:layout_margin">8dp</item>
     </style>
 
-    <style name="Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:background">@drawable/button_secondary_background</item>
         <item name="android:textColor">@color/primary</item>
         <item name="android:textSize">16sp</item>
@@ -56,7 +56,7 @@
         <item name="android:layout_margin">8dp</item>
     </style>
 
-    <style name="Button.Success" parent="Widget.Material3.Button">
+    <style name="Button.Success" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/button_success_background</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">16sp</item>
@@ -65,7 +65,7 @@
         <item name="android:layout_margin">8dp</item>
     </style>
 
-    <style name="Button.Warning" parent="Widget.Material3.Button">
+    <style name="Button.Warning" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/button_warning_background</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">16sp</item>
@@ -74,7 +74,7 @@
         <item name="android:layout_margin">8dp</item>
     </style>
 
-    <style name="Button.Error" parent="Widget.Material3.Button">
+    <style name="Button.Error" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/button_error_background</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">16sp</item>
@@ -84,7 +84,7 @@
     </style>
 
     <!-- Card Styles -->
-    <style name="Card.Primary" parent="Widget.Material3.CardView">
+    <style name="Card.Primary" parent="Widget.MaterialComponents.CardView">
         <item name="android:background">@drawable/card_primary_background</item>
         <item name="android:layout_margin">8dp</item>
         <item name="android:padding">16dp</item>
@@ -92,7 +92,7 @@
         <item name="cardElevation">4dp</item>
     </style>
 
-    <style name="Card.Premium" parent="Widget.Material3.CardView">
+    <style name="Card.Premium" parent="Widget.MaterialComponents.CardView">
         <item name="android:background">@drawable/card_premium_background</item>
         <item name="android:layout_margin">8dp</item>
         <item name="android:padding">16dp</item>
@@ -101,38 +101,38 @@
     </style>
 
     <!-- Text Styles -->
-    <style name="Text.Headline" parent="Widget.Material3.TextView">
+    <style name="Text.Headline" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/text_main</item>
     </style>
 
-    <style name="Text.Title" parent="Widget.Material3.TextView">
+    <style name="Text.Title" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/text_main</item>
     </style>
 
-    <style name="Text.Subtitle" parent="Widget.Material3.TextView">
+    <style name="Text.Subtitle" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/text_secondary</item>
     </style>
 
-    <style name="Text.Body" parent="Widget.Material3.TextView">
+    <style name="Text.Body" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/text_main</item>
     </style>
 
-    <style name="Text.Caption" parent="Widget.Material3.TextView">
+    <style name="Text.Caption" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/text_muted</item>
     </style>
 
     <!-- Input Styles -->
-    <style name="Input.Primary" parent="Widget.Material3.TextInputLayout">
+    <style name="Input.Primary" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:background">@drawable/input_primary_background</item>
         <item name="android:textColorHint">@color/text_muted</item>
         <item name="android:textColor">@color/text_main</item>
@@ -141,7 +141,7 @@
     </style>
 
     <!-- Status Badge Styles -->
-    <style name="Badge.Premium" parent="Widget.Material3.TextView">
+    <style name="Badge.Premium" parent="Widget.MaterialComponents.TextView">
         <item name="android:background">@drawable/badge_premium_background</item>
         <item name="android:textColor">@color/primary</item>
         <item name="android:textSize">12sp</item>
@@ -150,7 +150,7 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="Badge.Free" parent="Widget.Material3.TextView">
+    <style name="Badge.Free" parent="Widget.MaterialComponents.TextView">
         <item name="android:background">@drawable/badge_free_background</item>
         <item name="android:textColor">@color/text_muted</item>
         <item name="android:textSize">12sp</item>
@@ -159,7 +159,7 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="Badge.Active" parent="Widget.Material3.TextView">
+    <style name="Badge.Active" parent="Widget.MaterialComponents.TextView">
         <item name="android:background">@drawable/badge_active_background</item>
         <item name="android:textColor">@color/success</item>
         <item name="android:textSize">12sp</item>
@@ -168,7 +168,7 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="Badge.Suspended" parent="Widget.Material3.TextView">
+    <style name="Badge.Suspended" parent="Widget.MaterialComponents.TextView">
         <item name="android:background">@drawable/badge_suspended_background</item>
         <item name="android:textColor">@color/warning</item>
         <item name="android:textSize">12sp</item>
